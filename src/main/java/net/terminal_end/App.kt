@@ -17,7 +17,7 @@ object App {
     }
 
     fun readWordsFromMeCabDic(): List<String> {
-        val file = File("dic/output1-1-1-1-1-1-1-1.csv")
+        val file = File("dic/output.csv")
         val words = file.readLines().map {
             it.split(",")[10]
         }
@@ -54,7 +54,7 @@ object App {
         }
         .subscribe({
             // record word and image
-            File("dic/result/errortest/hoge.csv").appendText(it.first + "\t" + it.second + "\n")
+            File("dic/result/dictionary.tsv").appendText(it.first + "\t" + it.second + "\n")
         }, {
             it.printStackTrace()
         }, {

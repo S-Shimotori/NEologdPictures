@@ -9,6 +9,10 @@ You will get too many images' URLs when you run for [NEologd](https://github.com
 1. Run `./dic/unique.sh` for the dictionary to remove duplicate words.
 2. Run `@JvmStatic fun main(args: Array<String>)` with `./pom.xml` and the file created from `1.`.
 
+### Result
+
+* See `./dictionary.tsv` from [mecab-user-dict-seed.20160616.csv.xz](https://github.com/neologd/mecab-ipadic-neologd/tree/master/seed)
+
 ## References
 
 * [Maven &#x2013; Welcome to Apache Maven](https://maven.apache.org/)
