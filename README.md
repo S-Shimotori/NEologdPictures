@@ -7,7 +7,9 @@ You will get too many images' URLs when you run for [NEologd](https://github.com
 ## Usage
 
 1. Run `./dic/unique.sh` for the dictionary to remove duplicate words.
+    * Please rewrite input file path
 2. Run `@JvmStatic fun main(args: Array<String>)` with `./pom.xml` and the file created from `1.`.
+    * Please rewrite input file path
 
 ### Result
 
